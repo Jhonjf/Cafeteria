@@ -1,0 +1,101 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.carousel-item img {
+    max-width: 1960px;
+    max-height: 760px; 
+    margin: auto;
+}
+
+.navbar {
+    background-color: #A1630B;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #A1630B;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-brand {
+    font-family: Pacifico, cursive;
+}
+
+.navbar-toggler {
+    background-color:#ffeae6 ;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+.section-title span {
+    color: #A1630B;
+}
+
+#sobre-a-cafeteria, #cardapio {
+    background-color:#ffeae6 ;
+}
+
+.text-colored {
+    color: #A1630B;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: #A1630B;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color:#A1630B ;
+}
+
+.no-resize{
+    resize: none;
+}
+
+.social-links li {
+    list-style: none;
+    display:inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
+
+.cafeteria-imagem {
+    max-width: 100%; /* Define a largura máxima da imagem */
+    max-height: 300px; /* Define a altura máxima da imagem */
+}
+
+.carousel-image {
+    width: 100%; /* Define a largura da imagem como 100% */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Garante que a imagem tenha uma exibição de bloco */
+    margin: auto; /* Centraliza a imagem horizontalmente */
+}
+
+.aniversario img {
+    max-height: 533px;
+}
+
+#cardapio .bebidas-sem-alcool,
+#cardapio .entrada,
+#cardapio .pratos{
+    max-width: 320px;
+    max-height: 213px;
+}
